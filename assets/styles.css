@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Inter:700|Inter:400');
+
+:root {
+    --background: rgb(242, 240, 235);
+    --font: rgb(10, 10, 10);
+    --accent: rgb(249, 69, 204);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter' sans-serif;
+    font-weight: 400;
+    background-color: var(--background);
+    color: var(--font);
+    padding: 10%;
+}
+
+h1,
+h4 {
+    font-family: 'Inter';
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 4.210rem;
+}
+
+h4 {
+    font-size: 1.777rem;
+}
+
+a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    margin: 0 auto;
+    text-align: left;
+}
+
+.header {
+    display: flex;
+    align-items: center;  /* Aligns the image and header vertically */
+    justify-content: left; /* Centers them horizontally */
+    margin-bottom: 20px;
+}
+
+.header img {
+    width: 4.210rem;
+    height: 4.210rem;
+    margin-left: 10px; /* Space between the image and the header */
+}
