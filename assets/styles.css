@@ -50,13 +50,13 @@ a:hover {
 
 .header {
     display: flex;
-    align-items: center;  /* Aligns the image and header vertically */
-    justify-content: left; /* Centers them horizontally */
+    align-items: center;
+    justify-content: left;
     margin-bottom: 20px;
 }
 
 .header img {
     width: 4.210rem;
     height: 4.210rem;
-    margin-left: 10px; /* Space between the image and the header */
+    margin-left: 10px;
 }
